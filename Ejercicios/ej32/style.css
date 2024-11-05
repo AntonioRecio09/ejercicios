@@ -11,3 +11,47 @@
     text-align: center;
     font-family:'Courier New', Courier, monospace;
 }
+ul.menu {
+    list-style-type: none;
+    margin-top: 17px;
+    padding: 0px;
+    overflow: visible;
+    position: fixed;
+    top: 15%;
+    width: 180%;
+    display: inline-flex;
+    background-color: white;
+}
+li.menuitem{
+    float: left;
+}
+li a.menu {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a.menu:hover{
+    background-color: lightgray;
+}
+.columna{
+    float: left;
+    padding: 10px;
+}
+.columna.lado{
+    width: 30px;
+    text-align: justify;
+}
+.columna.central{
+    width: 40px;
+}
+.pie{
+    clear: both;
+    text-align: center;
+}
+@media (max-width:800px) {
+    .columna.columna.lado, .columna.central{
+        width: 100%;
+    }
+}
