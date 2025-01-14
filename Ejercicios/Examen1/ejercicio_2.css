@@ -1,0 +1,43 @@
+.paso1 {
+    width: 90%;
+    height: 40px;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, lime, skyblue);
+    margin: 20px 5px 20px 5px;
+    padding: 15px;
+    
+}
+
+a:link {
+    border: 2px solid black;
+    border-radius: 5px;
+    float: right;
+    padding: 7px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paso1:hover a {
+    visibility: hidden;
+}
+    
+.servidores {
+    width: 100%;
+    background-color: snow;
+    color: white;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.apache {
+    width: 20%;
+    background-color: blueviolet;
+    float: left;
+}
+
+.iis {
+    width: 70%;
+    float: left;
+    background-color: cornflowerblue;
+}

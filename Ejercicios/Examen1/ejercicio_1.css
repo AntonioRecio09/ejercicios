@@ -1,0 +1,16 @@
+#img1 {
+    width: 180px;
+    margin: 10px;
+    float: left;
+}
+
+.img2 {
+    margin: 20px;
+    width: 100%;
+}
+
+.centro {
+    clear: left;
+    margin: auto;
+    width: 50%;
+}
