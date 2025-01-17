@@ -1,0 +1,28 @@
+* {
+    background-color: lightblue;
+}
+
+#titulo {
+    text-align: center;
+    color: blue;
+}
+
+#playImage {
+    margin-left: 625px; 
+    
+}
+
+.loss {
+    margin-left: 900px;
+    background-color: blue;
+    color: white;
+}
+
+.letras {
+    margin-left: 645px;
+    color: white;
+}
+
+.lineas {
+    margin-left: 910px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+    <script>
+        window.onload = function () {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const win = urlParams.get('win');
+            let msg = "Oh! You've lost!";
+            if(parseInt(win)==1)
+            {
+                msg = "Congrats! You've won!";
+            }
+            document.getElementById("result").innerHTML = msg;
+            const word = urlParams.get('word');
+            document.getElementById("word").innerHTML = word;
+        }
+    </script> 
+</head>
+<body>
+    <h1 id="result"></h1>
+    <br>
+    <h1 id="word"></h1>
+    <br><br>
+    <button onclick="window.location.href = 'index.html'";>Play Again</button>
+</body>
+</html>
